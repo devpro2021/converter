@@ -1,0 +1,12 @@
+@import "./src/styles/variables";
+.converterBlock{
+  &:first-child{
+    margin-bottom: 30px;
+  }
+}
+.title{
+  color: $ACCENT_COLOR
+}
+
+
+

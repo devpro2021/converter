@@ -1,0 +1,17 @@
+
+.converter{
+  width: 522px;
+  border: 2px solid #f47f81;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+}
+
+.arrows{
+  position: absolute;
+  height: 50%;
+  transform: translateY(-50%);
+  right: 40px;
+  width: 32px;
+  cursor: pointer;
+}

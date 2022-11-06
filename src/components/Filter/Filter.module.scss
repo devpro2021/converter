@@ -1,0 +1,23 @@
+.filter{
+  margin-top: 10px;
+  display: flex;
+  height: 30px;
+}
+
+.filterItem{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:not(:last-child){
+    margin-right: 10px;
+  }
+
+}
+.active{
+  color: #ffffff;
+  padding: 7px 12px;
+  border-radius: 5px;
+  background-color: #f47f81;
+}
